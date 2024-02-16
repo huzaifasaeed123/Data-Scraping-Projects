@@ -17,24 +17,29 @@ print(price)
 
 #Prepare Email Message Using EmailMessage()
 sender_mail = 'saeedhuzaifa678@gmail.com'    
-receivers_mail = ['saeedhuzaifa333@gmail.com']    
+receivers_mail = ['stepmdcat111@gmail.com']    
 message = EmailMessage()
 message['From'] = sender_mail
 message['To'] = ', '.join(receivers_mail)
-message['Subject'] = "subject"
+message['Subject'] = "Amazon Price Tracker"
 
 body = f"""\
-{title.text.strip()} 
-is Now Less Than 100$ And You can Buy This Product By Following This Link
-{url}
+<html>
+<head></head>
+<body>
+<h3><strong>{title.text.strip()}</strong></h3>
+<p>is Now Less Than <strong>100$</strong> And You can Buy This Product By Following This Link</p>
+<p><a href="{url}">{url}</a></p>
+</body>
+</html>
 """
-message.set_content(body)
+message.set_content(body, subtype='html')
  
 print(message) 
 #send Email if Price Match
 if(price<100):
-    try:    
-        password = "Your PassWord"    
+    try:  
+        password = "Your Password Set On App"    
         smtpObj = smtplib.SMTP_SSL('smtp.gmail.com',465)    
         smtpObj.login(sender_mail,password)    
         smtpObj.sendmail(sender_mail, receivers_mail, message.as_string())    
