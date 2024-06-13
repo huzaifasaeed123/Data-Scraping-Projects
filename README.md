@@ -18,3 +18,23 @@ This project is a Python bot that tracks the prices of products on Amazon and no
 ### Contributing
 - Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 - ![image](https://github.com/huzaifasaeed123/Data-Scraping-Practice/assets/143410512/545f5326-1439-4384-b836-6a533f5213fd)
+
+# 2nd Project-Spotify Playlist Creator from Billboard Top 100
+
+### Project Description
+
+This project scrapes the top 100 song titles from the Billboard website and creates a Spotify playlist, adding all those top 100 songs to the playlist automatically.
+
+### Features
+
+- **Web Scraping**: Extracts the top 100 songs from Billboard's website.
+- **Spotify Integration**: Creates a playlist on Spotify and adds the scraped songs to it.
+
+### How It Works
+
+1. **Scrape Billboard Top 100**: The script uses BeautifulSoup to scrape song titles from Billboard's Hot 100 chart.
+2. **Spotify API**: Utilizes the Spotipy library to interact with the Spotify API.
+   - Authenticates with Spotify using OAuth.
+   - Creates a new playlist.
+   - Searches for each song on Spotify and adds it to the created playlist.
+   
