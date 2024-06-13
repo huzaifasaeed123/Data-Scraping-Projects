@@ -63,7 +63,7 @@ This project scrapes all video links from a specified website and downloads all 
 6. **Video Downloading**: Download each video from the extracted links and save them in a specified folder with appropriate titles.
 
 Thank you for checking out this project! Feel free to contribute or reach out if you have any questions.
-# MCQs and Video Content Downloader from Kips LMS
+# 4th Project-MCQs and Video Content Downloader from Kips LMS
 
 ## Project Description
 
@@ -115,5 +115,136 @@ This project has two main parts:
 
 Thank you for checking out this project! Feel free to contribute or reach out if you have any questions.
 
+# 5th Project-Hidden API Scraper for PhyInSecond LMS
 
-   
+## Project Description
+
+This project scrapes all website content by targeting hidden APIs used on the website. By scraping these hidden APIs, we access all available content, including downloading videos with special titles and notes.
+
+## Features
+
+- **Hidden API Targeting**: Identifies and targets hidden APIs to access website content.
+- **Content Aggregation**: Combines information from multiple APIs to gather comprehensive data.
+- **Video Downloading**: Downloads videos using extracted URLs and saves them with appropriate titles.
+
+## Steps
+
+### Hidden API Scraping and Content Extraction
+
+1. **Session Initialization**: Initialize a session to persist the login session and set headers for the requests.
+2. **Login**: Post the login credentials to authenticate with the website.
+3. **Fetch Course Content**: Access the course content API to retrieve the list of videos.
+4. **Extract Video Source IDs**: Iterate through the list of videos to extract the source IDs.
+5. **Fetch Video Details**: Use the source IDs to fetch video details from another API.
+6. **Aggregate Video Data**: Combine the information from the APIs to gather video URLs and titles.
+7. **Download Videos**: Download the videos using the aggregated URLs and save them with appropriate titles.
+
+Thank you for checking out this project! Feel free to contribute or reach out if you have any questions.
+# 6th Project-Encrypted Iframe Video Downloader
+
+## Project Description
+
+This project scrapes hidden APIs to extract video private IDs or keys, combines these IDs to construct video URLs, and downloads specially encrypted iframe videos. Using this code, over 2000 encrypted videos, totaling nearly 2TB in size, were downloaded from a website.
+
+## Features
+
+- **Hidden API Targeting**: Identifies and targets hidden APIs to access video content.
+- **ID Extraction**: Extracts private video IDs from multiple APIs.
+- **URL Construction**: Combines extracted IDs to create valid video URLs.
+- **Encrypted Video Downloading**: Downloads specially encrypted iframe videos using the constructed URLs.
+
+## Steps
+
+### Hidden API Scraping and ID Extraction
+
+1. **Session Initialization**: Initialize a session to persist the login session and set headers for the requests.
+2. **Login**: Post the login credentials to authenticate with the website.
+3. **Fetch Video IDs**: Access the course content API to retrieve the list of video IDs.
+4. **Extract Video Paths**: Use the video IDs to fetch video paths and details from another API.
+5. **Construct Video URLs**: Combine the extracted video IDs and paths to construct valid video URLs.
+6. **Download Encrypted Videos**: Pass the constructed URLs to the `BunnyVideoDRM` class to download the encrypted iframe videos.
+
+### Encrypted Iframe Video Downloading
+
+1. **Prepare Download**: Ping and activate the video context using the extracted IDs and paths.
+2. **Download Video**: Use `yt-dlp` to download the encrypted video from the constructed URL.
+
+## Achievements
+
+- **Massive Data Download**: Successfully downloaded over 2000 encrypted videos.
+- **Large Data Size**: Managed a total download size of nearly 2TB.
+
+Thank you for checking out this project! Feel free to contribute or reach out if you have any questions.
+
+# 7th Project-MCQs Scraper and Formatter from StepBYPGC
+
+## Project Description
+
+This project scrapes more than 25,000 MCQs from the StepBYPGC website by targeting hidden APIs and formats these MCQs into a special format in Word documents. The scraping process involves using Microsoft authentication to access the hidden APIs and extract the required data.
+
+## Features
+
+- **Hidden API Targeting**: Identifies and targets hidden APIs to access MCQs content.
+- **Massive Data Extraction**: Successfully scraped over 25,000 MCQs.
+- **MCQs Formatting**: Formats the extracted MCQs into a special format in Word documents, including images.
+- **Automated Word Document Creation**: Automatically generates Word documents for each set of MCQs.
+
+## Steps
+
+1. **Session Initialization**: Initialize a session to persist the login session and set headers for the requests.
+2. **Login**: Authenticate using Microsoft credentials to access the hidden APIs.
+3. **Fetch Work Batch Data**: Retrieve work batch data from the API.
+4. **Fetch Work Day Data**: For each work day, fetch the corresponding MCQs tests and other related data.
+5. **Extract and Format MCQs**: Extract MCQs and format them into a special format in Word documents.
+6. **Download Images**: Download any images associated with the MCQs and include them in the Word documents.
+7. **Save Word Documents**: Save the formatted MCQs as Word documents with appropriate titles.
+
+## Achievements
+
+- **Large Scale Data Extraction**: Successfully extracted and formatted over 25,000 MCQs.
+- **Automated Document Generation**: Created Word documents in a special format, ready for use or distribution.
+
+## Example
+
+Here is an example screenshot of the formatted Word document:
+
+![image](https://github.com/huzaifasaeed123/Data-Scraping-Projects/assets/143410512/8ee6c24c-f7ac-491e-b7e9-74c7951f99d2)
+
+Thank you for checking out this project! Feel free to contribute or reach out if you have any questions.
+
+
+# 8th Project-MCQs Scraper and Formatter from Premed.pk
+
+## Project Description
+
+This project scrapes more than 50,000 MCQs from the Premed.pk website by targeting hidden APIs and formats these MCQs into a special format in Word documents. The scraping process involves accessing the hidden APIs to extract the required data.
+
+## Features
+
+- **Hidden API Targeting**: Identifies and targets hidden APIs to access MCQs content.
+- **Massive Data Extraction**: Successfully scraped over 50,000 MCQs.
+- **MCQs Formatting**: Formats the extracted MCQs into a special format in Word documents, including images.
+- **Automated Word Document Creation**: Automatically generates Word documents for each set of MCQs.
+
+## Steps
+
+1. **Session Initialization**: Initialize a session to set headers for the requests.
+2. **Fetch MCQs Data**: Access the hidden APIs to retrieve the MCQs data.
+3. **Extract and Format MCQs**: Extract MCQs and format them into a special format in Word documents.
+4. **Download Images**: Download any images associated with the MCQs and include them in the Word documents.
+5. **Save Word Documents**: Save the formatted MCQs as Word documents with appropriate titles.
+
+## Achievements
+
+- **Large Scale Data Extraction**: Successfully extracted and formatted over 50,000 MCQs.
+- **Automated Document Generation**: Created Word documents in a special format, ready for use or distribution.
+
+## Example
+
+Here is an example screenshot of the formatted Word document:
+
+![image](https://github.com/huzaifasaeed123/Data-Scraping-Projects/assets/143410512/05910486-04f0-4560-afe1-00a532346766)
+
+
+Thank you for checking out this project! Feel free to contribute or reach out if you have any questions.
+
