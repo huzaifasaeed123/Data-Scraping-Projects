@@ -208,7 +208,7 @@ This project scrapes more than 25,000 MCQs from the StepBYPGC website by targeti
 
 Here is an example screenshot of the formatted Word document:
 
-![image](https://github.com/huzaifasaeed123/Data-Scraping-Projects/assets/143410512/8ee6c24c-f7ac-491e-b7e9-74c7951f99d2)
+![image](https://github.com/huzaifasaeed123/Data-Scraping-Projects/assets/143410512/fd06e21a-c99e-43da-8092-2c4f98a17a44)
 
 Thank you for checking out this project! Feel free to contribute or reach out if you have any questions.
 
@@ -244,6 +244,56 @@ This project scrapes more than 50,000 MCQs from the Premed.pk website by targeti
 Here is an example screenshot of the formatted Word document:
 
 ![image](https://github.com/huzaifasaeed123/Data-Scraping-Projects/assets/143410512/05910486-04f0-4560-afe1-00a532346766)
+
+
+Thank you for checking out this project! Feel free to contribute or reach out if you have any questions.
+
+# Merit List Med-23
+
+## Project Description
+
+The Merit List Med-23 project involves creating a comprehensive merit list by collecting and comparing student data from multiple sources. The project consists of three main steps:
+
+1. **Scraping Student Information**: Collecting student details like name, father's name, test marks, and other relevant information from a primary website.
+2. **Scraping FSC Marks**: Collecting FSC marks of students from ten different websites.
+3. **Comparing and Generating Merit List**: Comparing the collected data of approximately 10 million students with the actual merit list base students (around 17k) and generating a merit list based on 50% test marks and 50% FSC marks.
+
+## Features
+
+- **Multi-Source Data Collection**: Scrapes data from more than 15 websites.
+- **Large Scale Data Handling**: Manages data for over 10 million students.
+- **Merit List Generation**: Creates a merit list by comparing and calculating based on predefined criteria.
+
+## Steps
+
+### Step 1: Scraping Student Information
+
+1. **Initialize Session**: Set up a session for consistent requests.
+2. **Collect Student Data**: Scrape student details like name, father's name, and test marks from the primary website.
+
+### Step 2: Scraping FSC Marks
+
+1. **Scrape FSC Marks**: Collect FSC marks from ten different websites.
+2. **Data Aggregation**: Aggregate the collected FSC marks for each student.
+
+### Step 3: Comparing and Generating Merit List
+
+1. **Compare Data**: Compare the data of approximately 10 million students with the actual merit list base students (around 17k).
+2. **Calculate Merit**: Generate a merit list by calculating based on 50% test marks and 50% FSC marks.
+3. **Generate Final Merit List**: Create the final merit list with all relevant student details.
+
+## Achievements
+
+- **Extensive Data Collection**: Successfully scraped data for over 10 million students from more than 15 websites.
+- **Accurate Merit List Generation**: Produced a merit list by accurately comparing and calculating student data.
+
+## Example
+
+Here is an example screenshot of the final merit list document:
+
+![image](https://github.com/huzaifasaeed123/Data-Scraping-Projects/assets/143410512/624ac5ad-891f-431d-a007-3803e2de4903)
+
+![image](https://github.com/huzaifasaeed123/Data-Scraping-Projects/assets/143410512/f1fe7fb9-987a-4305-a8f0-c0b40417a04b)
 
 
 Thank you for checking out this project! Feel free to contribute or reach out if you have any questions.
